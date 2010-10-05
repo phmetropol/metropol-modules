@@ -1,0 +1,8 @@
+core = "6.x"
+dependencies[] = "features"
+dependencies[] = "menu"
+description = "a footer menu"
+features[menu_custom][] = "menu-footermenu"
+features[menu_links][] = "menu-footermenu:<front>"
+name = "Footer Menu"
+package = "Features"
