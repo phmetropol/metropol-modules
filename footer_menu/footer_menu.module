@@ -1,3 +1,29 @@
 <?php
 
 // Drupal needs this blank file.
+
+
+/*function footer_menu_block($op = 'list', $delta = 0){
+if ($op == 'list') {
+    return array(
+      'account' => array(
+        'info' => t('Footer menu'),
+        #'cache' => BLOCK_NO_CACHE,
+        'status' => 1,
+        'region' => 'footer_menu',
+      ),
+    );
+  }
+  elseif ($op == 'view' && $delta == 'account') {
+  
+      
+      $block['content'] = '<ul class="line">'.implode($out).'</ul>';
+    
+    
+  #  $block['subject'] = t('Mine lån');   
+      
+  
+    return $block;
+  }
+	
+}*/
